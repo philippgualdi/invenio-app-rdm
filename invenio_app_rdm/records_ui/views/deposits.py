@@ -269,6 +269,7 @@ def get_form_config(**kwargs):
                 "user-dashboard-request-details"
             ]
         ),
+        apiHeaders=conf.get("APP_RDM_DEPOSIT_API_HEADERS"),
         **kwargs,
     )
 
